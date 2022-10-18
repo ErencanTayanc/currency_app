@@ -11,7 +11,7 @@ class SettingsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    SwitchX sx = Get.put(SwitchX());
+    SwitchX sx = Get.put(SwitchX(), permanent: true);
 
     return Scaffold(
       appBar: AppBar(title: Text("Settings")),
